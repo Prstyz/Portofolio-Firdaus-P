@@ -1,0 +1,364 @@
+*,
+html{
+    /* height: 2000px; */
+}
+body {
+    /* font-family: "Open Sans",sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    animation-delay: 2s;
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: rgb(223, 246, 255);
+}
+
+.navbarcss {
+    font-size: 20px;
+    color: aliceblue;
+
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    max-width: 100%;
+    box-shadow: 0px 13px 25px -3px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: 0px 13px 25px -3px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 0px 13px 25px -3px rgba(0, 0, 0, 0.46);
+}
+
+li {
+
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+li.a:hover {
+    border-radius: 20px;
+    background-color: rgb(37, 109, 133);
+    transition: 0.4s ease-in-out;
+}
+nav.warna {
+    background-color: rgb(6, 40, 61);
+}
+
+.utama {
+    padding-top: 150px;
+}
+
+.card {
+    width: 50vh;
+    border: none;
+    border-radius: 50px;
+    margin-left: 50px;
+    background-color: #fff;
+}
+
+.text1 {
+    font-size: 13px;
+    color: #cbcbcb;
+}
+
+.info {
+    line-height: 17px;
+}
+
+.cost span {
+    color: #fb3531;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.star {
+    color: #FBC02D;
+}
+
+.watchcost span {
+    color: #286783;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+.addtocart{
+    background: #286783;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.addtocart:hover{
+    background: #5bc7f5;
+    border-radius: 0px 0px 30px 30px;
+    transition: 0.4s ease-in-out;
+}
+.footer1{
+    padding-bottom: 70px;
+    color: aliceblue;
+    background-color: rgb(6, 40, 61);
+    height: auto;
+    width: 100%;
+    position: static;
+}
+
+.footer2{
+    background-color: #015682;
+    height: 40px;
+    color: white;
+}
+
+.dalemfooter{
+    padding-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.stretch-card>.card {
+    width: 100%;
+    min-width: 100%
+}
+
+body {
+    background-color: #f9f9fa
+}
+
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+@media (max-width:991.98px) {
+    .padding {
+        padding: 1.5rem
+    }
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+
+.padding {
+    padding: 3rem
+}
+
+.card {
+    box-shadow: none;
+    box-shadow: 0px 13px 25px -3px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: 0px 13px 25px -3px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 0px 13px 25px -3px rgba(0, 0, 0, 0.46);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #3da5f;
+    border-radius: 30px;
+}
+
+.card .card-body {
+    padding: 1.25rem 1.75rem
+}
+
+.card .card-title {
+    color: #000000;
+    margin-bottom: 0.625rem;
+    text-transform: capitalize;
+    font-size: 0.875rem;
+    font-weight: 500
+}
+
+.card .card-description {
+    margin-bottom: .875rem;
+    font-weight: 400;
+    color: #76838f
+}
+.btn.btn-social-icon{
+   width: 50px;
+   height: 50px;
+   padding: 0;
+}
+.template-demo > .btn{
+   margin-right: 0.5rem !important;
+}
+
+.template-demo{
+   margin-top: 0.5rem !important;
+}
+
+.btn.btn-rounded {
+   border-radius: 50px;
+}
+
+
+.btn-outline-facebook {
+   border: 1px solid #3b579d;
+   color: #3b579d;
+}
+
+.btn-outline-facebook:hover {
+   background: #3b579d;
+   color: #ffffff;
+}
+
+.btn-outline-youtube {
+   border: 1px solid #e52d27;
+   color: #e52d27;
+}
+
+.btn-outline-twitter {
+   border: 1px solid #2caae1;
+   color: #2caae1;
+}
+
+.btn-outline-dribbble {
+   border: 1px solid #ea4c89;
+   color: #ea4c89;
+}
+
+.btn-outline-linkedin {
+   border: 1px solid #0177b5;
+   color: #0177b5;
+}
+
+.btn-outline-instagram {
+   border: 1px solid #dc4a38;
+   color: #dc4a38;
+}
+
+.btn-outline-twitter:hover {
+   background: #2caae1;
+   color: #ffffff;
+}
+
+.btn-outline-linkedin:hover {
+   background: #0177b5;
+   color: #ffffff;
+}
+
+.btn-outline-youtube:hover {
+   background: #e52d27;
+   color: #ffffff;
+}
+
+.btn-outline-instagram:hover{
+   background: #e52d27;
+   color: #ffffff;
+}
+.btn-facebook {
+   background: #3b579d;
+   color: #ffffff;
+}
+
+.btn-youtube {
+   background: #e52d27;
+   color: #ffffff;
+}
+
+.btn-twitter {
+   background: #2caae1;
+   color: #ffffff;
+}
+.btn-dribbble {
+   background: #ea4c89;
+   color: #ffffff;
+}
+.btn-linkedin {
+   background: #0177b5;
+   color: #ffffff;
+}
+.btn-instagram {
+   background: #dc4a38;
+   color: #ffffff;
+}
+
+.btn-facebook:hover, .btn-facebook:focus {
+   background: #2d4278;
+   color: #ffffff;
+}
+
+.btn-youtube:hover, .btn-youtube:focus {
+   background: #c21d17;
+   color: #ffffff;
+}
+.btn-twitter:hover, .btn-twitter:focus {
+   background: #1b8dbf;
+   color: #ffffff;
+}
+.btn-dribbble:hover, .btn-dribbble:focus {
+   background: #e51e6b;
+   color: #ffffff;
+}
+
+.btn-linkedin:hover, .btn-linkedin:focus {
+   background: #015682;
+   color: #ffffff;
+}
+
+.btn-instagram:hover, .btn-instagram:focus {
+   background: #bf3322;
+   color: #ffffff;
+}
+.video-container{
+  
+     /* position:absolute;
+
+    width: 100%;
+    height: 110.7%;  */
+    
+    background: red; 
+    max-height: 400px;
+    overflow: hidden;
+
+  }
+  .shadowvid{
+    box-shadow: 0px 13px 25px -3px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: 0px 13px 25px -3px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 0px 13px 25px -3px rgba(0, 0, 0, 0.46);
+  }
+  
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    color:#286783;
+}
+a.tombolecom {
+    color: white;
+
+}
+a.tombolecom:hover {
+    color: rgb(216, 216, 216);
+    transition: all .3s ease-in-out;
+    
+
+}
+
+.small-container {
+    padding-top: 200px;
+
+}
+
+.col-5 {
+  box-sizing: border-box;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 0.9px;
+}
+.small-container {
+    padding-top: 200px;
+
+}
+
+.col-5 {
+  box-sizing: border-box;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 0.9px;
+}
